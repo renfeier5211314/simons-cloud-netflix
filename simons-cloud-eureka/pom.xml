@@ -68,7 +68,7 @@
                         </executions>
                     </plugin>
                     <!-- Docker maven plugin -->
-                    <!-- <plugin>
+                     <plugin>
                          <groupId>com.spotify</groupId>
                          <artifactId>docker-maven-plugin</artifactId>
                          <version>1.0.0</version>
@@ -84,7 +84,7 @@
                          <configuration>
                              <imageName>${project.artifactId}</imageName>
                              <imageTags>
-                                 &lt;!&ndash;可以指定多个标签&ndash;&gt;
+                                 <!--可以指定多个标签-->
                                  <imageTag>${maven.build.timestamp}</imageTag>
                              </imageTags>
                              <baseImage>java</baseImage>
@@ -98,7 +98,7 @@
                                  </resource>
                              </resources>
                          </configuration>
-                     </plugin>-->
+                     </plugin>
                     <!-- Docker maven plugin -->
 
                 </plugins>
