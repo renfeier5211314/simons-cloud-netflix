@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>simons-cloud-eureka</artifactId>
-    <packaging>pom</packaging>
+    <packaging>jar</packaging>
     <name>${project.artifactId}</name>
 
     <parent>
@@ -109,90 +109,3 @@
     </profiles>
 
 </project>
-
-
-        <!--  <?xml version="1.0" encoding="UTF-8"?>
-  <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-           xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-
-
-  <groupId>com.ytly</groupId>
-  <artifactId>simons-cloud-eureka</artifactId>
-  <packaging>jar</packaging>
-  <version>0.0.1-SNAPSHOT</version>
-
-  <name>${project.artifactId}</name>
-  <description>所有模块的公共模块</description>
-
-  <properties>
-      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-      <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-      <java.version>1.8</java.version>
-      <springboot.version>1.5.9.RELEASE</springboot.version>
-
-      &lt;!&ndash; 设定控件版本信息 &ndash;&gt;
-      <mybatis-boot.version>1.1.1</mybatis-boot.version>
-      <org.mapstruct.version>1.2.0.Final</org.mapstruct.version>
-      <org.mapstruct.processor.version>1.2.0.CR1</org.mapstruct.processor.version>
-      <mybatisplus.version>3.0.5</mybatisplus.version>
-      <feign.form.version>3.0.3</feign.form.version>
-      <swagger2.version>2.7.0</swagger2.version>
-      <jwt.version>3.2.0</jwt.version>
-      <fastjson.version>1.2.56</fastjson.version>
-      <pagehelper.version>1.1.1</pagehelper.version>
-      <lmgd.common.version>1.0.0</lmgd.common.version>
-
-  </properties>
-
-  <dependencies>
-
-      <dependency>
-          <groupId>org.springframework.boot</groupId>
-          <artifactId>spring-boot-starter</artifactId>
-          <version>${springboot.version}</version>
-      </dependency>
-
-      <dependency>
-          <groupId>org.springframework.boot</groupId>
-          <artifactId>spring-boot-starter-test</artifactId>
-          <version>${springboot.version}</version>
-          <scope>test</scope>
-      </dependency>
-
-      <dependency>
-          <groupId>org.springframework.boot</groupId>
-          <artifactId>spring-boot-starter-web</artifactId>
-          <version>${springboot.version}</version>
-      </dependency>
-
-
-      &lt;!&ndash; mapstruct 开始&ndash;&gt;
-      <dependency>
-          <groupId>org.mapstruct</groupId>
-          <artifactId>mapstruct-jdk8</artifactId>
-          <version>${org.mapstruct.version}</version>
-      </dependency>
-      <dependency>
-          <groupId>org.mapstruct</groupId>
-          <artifactId>mapstruct-processor</artifactId>
-          <version>${org.mapstruct.processor.version}</version>
-      </dependency>
-      &lt;!&ndash; mapstruct 结束&ndash;&gt;
-
-
-  </dependencies>
-  <build>
-      <plugins>
-          <plugin>
-              <groupId>org.apache.maven.plugins</groupId>
-              <artifactId>maven-compiler-plugin</artifactId>
-              <configuration>
-                  <source>1.8</source>
-                  <target>1.8</target>
-              </configuration>
-          </plugin>
-      </plugins>
-  </build>
-
-  </project>-->
